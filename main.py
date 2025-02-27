@@ -25,10 +25,11 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Define model paths - Update these paths to your model locations
-DIABETES_MODEL_PATH = Path(r"C:\Api_Prediction\models\diabetes.pkl")
-DIABETES_SCALER_PATH = Path(r"C:\Api_Prediction\models\scalerdiabetes.pkl")
-ANEMIA_MODEL_PATH = Path(r"C:\Api_Prediction\models\Ml_Anemia_graduation.pkl")
-ANEMIA_SCALER_PATH = Path(r"C:\Api_Prediction\models\ScalerAnemia.pkl")
+
+DIABETES_MODEL_PATH = Path("models/diabetes.pkl")
+DIABETES_SCALER_PATH = Path("models/scalerdiabetes.pkl")
+ANEMIA_MODEL_PATH = Path("models/Ml_Anemia_graduation.pkl")
+ANEMIA_SCALER_PATH = Path("models/ScalerAnemia.pkl")
 
 # -------------------- Diabetes Models --------------------
 
